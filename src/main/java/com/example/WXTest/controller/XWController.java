@@ -81,7 +81,7 @@ public class XWController {
         }
         //回复图片消息
         if (map.get("MsgType").equals("text")) {
-            if (map.get("Content").equals("33")) {
+            if (map.get("Content").equals("333")) {
 
                 String returemessage = MessageUtil.initImageMessage(FromUserName, ToUserName);
                 PrintWriter out = response.getWriter();
